@@ -90,6 +90,4 @@ For more detail about each of these steps, see the project lesson.
 
 ## Test endopoint
 
-1. export URL="a04e1b0e8e4864d809c2f3892e48f245-1183953201.us-east-2.elb.amazonaws.com"
-2. export TOKEN=`curl -d '{"email":"jorgedarlim@gmail.com","password":"2j1o4r5g"}' -H "Content-Type: application/json" -X POST $URL/auth  | jq -r '.token'`
-3. curl --request GET $URL:80/contents -H "Authorization: Bearer ${TOKEN}" | jq
+1.  URL= a04e1b0e8e4864d809c2f3892e48f245-1183953201.us-east-2.elb.amazonaws.com 
